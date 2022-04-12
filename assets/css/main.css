@@ -1,0 +1,52 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+body {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+
+/* Focus & Shadow: NONE */
+
+input:focus,
+input:active:focus,
+input.active:focus,
+input.focus,
+input:active.focus,
+input.active.focus,
+button:focus,
+button:active:focus,
+button.active:focus,
+button.focus,
+button:active.focus,
+button.active.focus {
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+textarea:focus,
+textarea:active:focus,
+textarea.active:focus,
+textarea.focus,
+textarea:active.focus,
+textarea.active.focus {
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.header-logo img {
+    height: 70% !important;
+}
+
+main {
+    height: calc(100vh - 200px);
+}
+
+@media (max-width: 768px) {
+    main {
+        height: unset;
+    }
+    .qanda {
+        display: none;
+    }
+}
